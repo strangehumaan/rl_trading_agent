@@ -1,7 +1,25 @@
-stable-baselines3
-gymnasium
-yfinance
-pandas
-numpy
-matplotlib
-ta
+# RL Trading Bot — Requirements
+# Python 3.12 compatible
+# Install: pip install -r requirements.txt
+
+# --- Data ---
+yfinance==1.2.2
+
+# --- Data manipulation ---
+pandas==3.0.1
+numpy==2.2.6
+
+# --- Technical Indicators ---
+pandas-ta==0.4.71b0
+
+# --- RL Environment ---
+gymnasium==1.2.3
+
+# --- RL Agent ---
+stable-baselines3==2.8.0
+
+# --- Deep Learning Backend ---
+torch==2.11.0
+
+# --- Plotting ---
+matplotlib==3.10.8
